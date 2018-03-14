@@ -1,15 +1,24 @@
 {
   "name": "@divyagnan/rn-style-utils",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "description": "Utils to help you quickly prototype a react native app",
   "main": "lib/index.js",
+  "files": ["lib"],
   "license": "MIT",
+  "author": "Divyagnan <divyagnan@users.noreply.github.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divyagnan/rn-style-utils.git"
+  },
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "rm -rf lib && babel src -d lib",
+    "release": "npm run build && np"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-codegen": "^1.2.1",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "np": "^2.20.1"
   },
   "peerDependencies": {
     "react-native": "*"

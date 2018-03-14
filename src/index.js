@@ -1,35 +1,7 @@
 // @codegen
 // sizes for the layout items
-const sizes = [
-  1,
-  2,
-  3,
-  4,
-  5,
-  6,
-  7,
-  8,
-  9,
-  10,
-  15,
-  20,
-  25,
-  30,
-  35,
-  40,
-  45,
-  50,
-  55,
-  60,
-  65,
-  70,
-  75,
-  80,
-  85,
-  90,
-  95,
-  100
-];
+// since the array starts at 0 we want everything after that
+const sizes = [...Array(101).keys()].slice(1);
 
 /**
  * codegen expects a string so we map through the sizes
