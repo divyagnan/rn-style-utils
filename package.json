@@ -1,9 +1,11 @@
 {
   "name": "@divyagnan/rn-style-utils",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Utils to help you quickly prototype a react native app",
   "main": "lib/index.js",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "license": "MIT",
   "author": "Divyagnan <divyagnan@users.noreply.github.com>",
   "repository": {
