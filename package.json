@@ -1,0 +1,17 @@
+{
+  "name": "@divyagnan/rn-style-utils",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-codegen": "^1.2.1",
+    "babel-preset-env": "^1.6.1"
+  },
+  "peerDependencies": {
+    "react-native": "*"
+  }
+}
