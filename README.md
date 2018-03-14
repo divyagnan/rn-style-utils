@@ -1,6 +1,12 @@
-# @divyagnan/rn-style-utils
+# @divyagnan/rn-style-utils [![npm version](https://badge.fury.io/js/%40divyagnan%2Frn-style-utils.svg)](https://badge.fury.io/js/%40divyagnan%2Frn-style-utils)
 
 > Simple style helpers to make react native prototyping easier
+
+## Install
+
+```
+npm i @divyagnan/rn-style-utils
+```
 
 ## Example Usage
 
